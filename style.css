@@ -1,0 +1,102 @@
+#sidebar-wrapper{
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #2a3439;
+    opacity: 0.8;
+}
+
+#page-content-wrapper{
+    width: 100%;
+    position: absolute;
+    padding: 20px;    
+}
+
+#wrapper.menuShown #sidebar-wrapper{
+    width: 175px;    
+    -webkit-transition: width .1s ease-out ;
+    -moz-transition: width .1s ease-out ;
+    transition: width .1s ease-out ;
+}
+
+#wrapper.menuShown #page-content-wrapper{
+    padding-left: 175px;
+}
+
+.sidebar-nav{
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.sidebar-nav li{    
+    text-indent: 5px;
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+.sidebar-nav li a{
+    display: block;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.sidebar-nav li a:hover{
+    background-color: lightcoral;
+    transition: background-color .5s ease-out;
+    
+}
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+
+#profile img{    
+    height: 150px;
+    width: 150px;    
+    border-radius: 75px;
+}
+
+#profile header{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+#profile h3{
+    color: darkorange;
+}
+
+
+#profileDetails{
+    float: left;
+    padding-left: 30px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    
+}
+
+#profile li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px;
+}
+
+h1{
+    border-width: 0 0px 1px 0;
+    border-style: solid;
+    
+}
+
+.active{
+    background-color: limegreen;
+}
+
+
