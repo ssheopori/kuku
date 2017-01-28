@@ -4,12 +4,10 @@
     <title>kuku in the head</title>
     <meta chatset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>       
@@ -23,44 +21,34 @@
 
 <body>
     
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
             
             <div class="navbar-header">
-                <a href="#" class="btn navbar-brand" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                <!--<a href="#" class="btn navbar-brand" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>-->
                 <a href="index.html" class="navbar-brand">KitH</a></div>
             
             <div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="beatrice.html">Beatrice</a></li>                    
+                    <li><a href="github.html">GitHub</a></li>                    
                     <li class="active"><a href="#">Resume</a></li>
+                    
                 </ul>
             </div>
-            
-            <ul class="nav navbar-nav navbar-right">
-               <li><a href="#">Logout</a></li>
-                
-            </ul>
+
             
         </div>
         
     </nav>
     
     <div id="wrapper">
-        <!--sidebar -->
-        <div id="sidebar-wrapper">
-            
-            <ul class="sidebar-nav">
-                <li><a href="#"><i class="fa-fw fa fa-mobile" aria-hidden="true"  ></i>  beatrice</a></li>
-                <li><a href="#"><i class="fa-fw fa fa-code-fork" aria-hidden="true"></i>  github</a></li>
-                <li><a href="#"><i class="fa-fw fa fa-gamepad" aria-hidden="true"></i>  stuff</a></li>                
-            </ul>
-        </div>
+
         
          <!-- content -->
          <div id="page-content-wrapper">
-             <div class="container-fluid">
+             <div class="container-fluid" style="background-color: white;color: black;">
                  <div class="row">
                      <div class="col-lg-12">
                          
@@ -68,24 +56,27 @@
                          <h1><i class="fa fa-code" aria-hidden="true"></i> Resume</h1>
                          <div id="profile">
                              
-                                <div id="profileDetails">
+                                <div >
 <i class="fa fa-code" aria-hidden="true"></i> Experienced Solutions Architect with a strong track record of successful delivery of large scale projects within Wealth Management. <br>
-<i class="fa fa-code" aria-hidden="true"></i> 14+ years in programming experience with C# (.net); n-tier and client/server architecture <br>
+<i class="fa fa-code" aria-hidden="true"></i> Extensive programming experience building deskstop, web, mobile, n-tier and client/server applications <br>
 <br>
-<i class="fa fa-code" aria-hidden="true"></i> Experience with developing Mobile Apps using Android and Ionic Framework <br>
-<i class="fa fa-code" aria-hidden="true"></i> Built and deployed application to the Android Play Store and Apple iTunes Store <br>
-<i class="fa fa-code" aria-hidden="true"></i> Hands on experience with Agile development cycle; taking on roles from Product Owner to Scrum Master <br>
+<i class="fa fa-code" aria-hidden="true"></i> 12+ years of programming experience in <b>C#</b>, ASP.net and MVC; building n-tier, desktop and web applications <br>
+<i class="fa fa-code" aria-hidden="true"></i> 4 year of programming experience in <b>JAVA</b>; building desktop applications <br>
+<i class="fa fa-code" aria-hidden="true"></i> 6 years of programming experience in <b>JavaScript</b> and jQuery <br>
+<i class="fa fa-code" aria-hidden="true"></i> 10 years of programming experience in Microsoft SQL Server T-SQL and IBM DB2<br>
+<i class="fa fa-code" aria-hidden="true"></i> 6 years of programming experience in <b>HTML/HTML5</b>, <b>Bootstrap</b>, <b>LESS/CSS</b><br>
+<i class="fa fa-code" aria-hidden="true"></i> 1 year of programming experience in C/C++<br>
+<i class="fa fa-code" aria-hidden="true"></i> Built and deployed Mobile applications onto Google Play Store and Apple App Store<br>
+<i class="fa fa-code" aria-hidden="true"></i> Mobile Application development experience using <b>AngularJS</b>, <b>Ionic Framework</b>, <b>UnderscoreJS</b> and Android SDK<br>
+<i class="fa fa-code" aria-hidden="true"></i> Knowledge of <b>Google Firebase</b> including Firebase Authentication, Real-Time Database and Storage<br>
+<i class="fa fa-code" aria-hidden="true"></i> Experience with setting up <b>NodeJS</b> based webserver on <b>Heroku</b> and <b>Amazon AWS</b><br>
 <br>
-
 <i class="fa fa-code" aria-hidden="true"></i> Firsthand experience in working closely with Business stakeholders in gathering requirements and designing cost effective and long term solutions <br>
 <i class="fa fa-code" aria-hidden="true"></i> Hands on experience with front to back implementation of Equities, Options, Mutual Funds, Alternative Investment and Fixed Income products <br>
 <i class="fa fa-code" aria-hidden="true"></i> Over 3 years experience in working directly with the Charles River Implementation <br>
 
 <br>
 
-<i class="fa fa-code" aria-hidden="true"></i> Skilled in managing a culturally diverse team across Asia, UK and US <br>
-<i class="fa fa-code" aria-hidden="true"></i> Strong communication and project management skills; have managed several resources including developers, Quality Assurance, release manager and production support <br>
-<i class="fa fa-code" aria-hidden="true"></i> Experienced in working with both in-house and vendor resources to design and develop solutions on Charles River; keeping costs and delivery dates in mind <br>
                                    
                                 </div>
                          </div>                      
@@ -105,7 +96,7 @@
                  <div class="row">
                      <div id="privacyPolicy" class="col-lg-12">                         
                         <div id="profileDetails">                                                                     
-                        <i class="fa fa-file-word-o" aria-hidden="true"></i> <a href="mailto:siddharth.sheopori@gmail.com?Subject=Requested Your Resume">Word Copy of Resume</a> <br>                                                         
+                        <i class="fa fa-file-word-o" aria-hidden="true"></i> <a href="./docs/Siddharth_sheopori_resume.docx">Word Copy of Resume</a> <br>                                                         
                         </div>
                      </div>                     
                  </div>  
@@ -119,13 +110,7 @@
              </div>            
          
     </div>
-    
-    <script>
-        $("#menu-toggle").click( function(e) {
-            e.preventDefault();                        
-            $("#wrapper").toggleClass("menuShown");            
-        });        
-    </script>
+
        
     
 </body>
